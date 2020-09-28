@@ -3,7 +3,6 @@ contract ETHMultiShoppingModule {
     address public vault;
     ItemsGifterDB public gifter;
     priceList public prices;
-    uint public eth_percent_price=100;
     
     constructor(address vlt, address prcs, address gftr) public{
         vault=vlt;
